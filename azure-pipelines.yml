@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-win2016
+  vmImage: ubuntu-latest
 
 variables:
   buildConfiguration: 'Release'
